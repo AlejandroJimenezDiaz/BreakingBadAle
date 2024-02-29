@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "Breaking Bad";
+    src: url(font/Breaking\ Bad.ttf);
+}
+
+.bodyIndex{
+
+text-align: center;
+background-color: #0c3e11;
+background-image: url(../img/FondoHD.jpeg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+background-position: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bodyTable{
+   
+    text-align: center;
+    background-color: #637124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.poster{
+    width: 700px;
+    height: 300px;
+    align-items: center;
+    border:10px outset brown ;
+    border-radius: 22px;
+    margin: auto;
+    
+}
+.posterimagen{
+   
+    width:100%;
+    height:100%;
+    border-radius: 12px;
+   }
+
+.titulo{
+   text-align: center;
+   color: #fff;
+   margin: 30px;
+   font-family:Georgia, 'Times New Roman', Times, serif;  
+}
+
+table{
+    border-collapse: collapse;
+    border : 1px solid #2b2c24 ;
+    margin: auto;
+    width: 950px;
+    height: 500px;
+}
+
+tr,td{
+    padding:0;
+    text-align:center;
+    border-width: 10px;
+    border-color: #2b2c24;
+    border-style: solid;
+    background-size: cover;
+}
+
+.tablasuperior{
+    img{
+        width: 60px;
+        height: 60px;
+    }
+    .hanks{
+        width: 64px;
+        height: 110px;
+    }
+}
+
+.tablainferior{
+    background-color: #c3c72c;
+    margin: auto;
+    width: 810px;
+    height: 100px;
+    img{
+     width: 70px;
+     height: 50px;   
+    }
+}
+
+.tdvacio{
+    background-color: #2b2c24;
+}
+
+.tdverde{
+    background-color:#b8da22;
+}
+
+.tdverde2{
+    background-color: #8aa321;
+}
+
+.tdverde3{
+    background-color: #637125;
+}
+
+.tdverde4{
+    background-color:#848f52 ;
+}
+
+.tdclaro{
+    background-color:#eff6ca;
+}
+
+.tdlila{
+    background-color: #ab8fcb;
+}
+
+.tdamarillo{
+    background-color: #c5e150;
+}
+
+.tdamarillo2{
+    background-color: #d5eb70 ;
+}
+
+.tdgris{
+    background-color: #bcc59a;
+}
+
+.top{
+    font-size: 30px;
+    color: #2b2c24;
+    padding-top: 0;
+    font-weight: bold;
+    vertical-align: text-top;
+   
+}
+.bottom{
+    font-size:10px;
+    vertical-align: bottom;
+    padding-bottom: 0px;
+    
+}
+
+fieldset{
+    
+    border: none;
+}
+
+.cajaformulario{
+    display: flex;
+    height: 800px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.cuerpoformulario{
+    border-radius: 10px;
+    background-image:url(../img/fondoformulario.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-attachment: fixed;
+    background-position: center;
+    width: min-content;
+    background-color: #b8da22;
+    text-align:center;   
+    justify-content: center; 
+    align-items: center; 
+    margin:  auto;   
+}
+
+.datosperosnales{
+    color: #2b2c24;
+    padding: 5px;
+    background-color: #dbf704;
+    width: min-content;
+}
+
+legend{
+    font-size: 20px;
+    text-align: left;
+    color: #f7e706;
+    background-color: #000000;
+    border-radius: 70px;
+}
+
+.Breakingbad{
+    font-size: 40px;
+    font-family: "Breaking Bad";
+    text-align: center;
+}
+
+input{
+    color: #000000;
+    border-radius: 22px;
+    background-repeat: no-repeat;
+    width: min-content;  
+}
+
+textarea{
+    font-size: 30px;
+    font-family: "Breaking Bad";
+    color: #000000;
+    width: 900px;
+    height: 60px;
+    border-radius: 12px;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: top;
+    resize: none;
+    overflow-block:block;
+    margin: auto;
+}
+
+select{
+    vertical-align: top;
+    text-align: left;
+    margin: auto;
+}
+
+.cajaselector{ 
+    text-align: left;
+    background-color: #cfe90c;
+    width: min-content; 
+}
+
+option{
+    background-color:#85e2de;
+    font-size: 40px;
+    font-family: "Breaking Bad";
+    color: #f7e706;
+}
+
+.sexo{
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+}
+
+.fechaNacimiento{
+   text-align:left;
+   width: min-content;  
+}
+
+.letrasdireccionpostal{
+    color:#000000;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+label{
+    border-radius: 22px;
+    background-color: #e5e806;
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.borrar{
+    background-color: #ff0404;
+}
+
+.enviar{
+    background-color: #b8da22;
+}
+
+.botones{
+    margin: auto;
+    width: min-content;
+}

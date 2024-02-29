@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+<body class="bodyIndex">
+    <div class="cajaformulario">
+    <form class="cuerpoformulario" name="formulario" action="mailto:raul.rodriguez@proeducaglobal.com" method="post">
+       <fieldset>
+        <legend class="Breakingbad">Breaking Bad - Que comience el juego!</legend>
+        <fieldset >
+            <legend>Datos personales</legend>     
+                <div class="datospersonales">
+                    <label for="Nombre">Nombre :</label><input type="text" name="nombre" required>
+                    <label for="DNI">DNI :</label><input type="text" name="DNI" id="DNI">
+                    <br><label for="Apellidos">Apellidos : </label><input type="text" name="apellidos" required>
+                    <label for="Email">Email :</label><input type="email" name="email" id="email" required>
+                    
+                </div>
+                <div>
+                        <div class="sexo">
+                    Sexo :  <br><input type="radio" name="sexo" value="H">Hombre 
+                            <br>
+                            <input type="radio" name="sexo" value="M">Mujer
+                        </div>
+                            
+                            <div class="fechaNacimiento">
+                                <label  for="fechaNacimiento">Fecha  nacimiento: </label><br><input type="date" name="fechaNacimiento" min="1924-01-01" max="2014-01-01">
+                            </div>   
+                        </div>
+                <div>
+                    <fieldset>
+                        <legend>Direccion Postal</legend>
+                        <label class="letrasdireccionpostal" for="calle">Calle : </label><input type="text" name="calle" id="calle">
+                        <label class="letrasdireccionpostal" for="Número">Numero :</label><input type="number" name="numero" id="numerocalle">
+                        <br><label class="letrasdireccionpostal" for="Piso">Piso :</label><input type="number" name="Piso" id="numeropiso">
+                        <br><label class="letrasdireccionpostal" for="CodigoPostal">Codigo Postal :</label><input type="number" name="CP" id="CP">
+                        <label class="letrasdireccionpostal" for="Ciudad">Ciudad</label><input type="text" name="ciudad" id="ciudad">
+                           
+                    </fieldset>
+                </div>
+            <fieldset>
+                <legend>Datos Serie</legend>  
+                <div class="cajaselector">
+                    <select name="personaje" id="">
+                    <option value="1"><label for="personakes">Jessie Pinkman</label></option>
+                    <option value="2"><label for="personakes">Walter White</label></option>
+                    <option value="3"><label for="personakes">Saul Goodman</label></option>
+                    <option value="4"><label for="personakes">Gustavo Fring</label></option>
+                    <option value="5"><label for="personakes">Pollos Hermanos</label></option>
+                    <option value="6"><label for="personakes">Otros Personajes</label></option>
+                    </select>
+                </div>
+                <div class="cajacomentario">
+                    <label for="Comentario">Escriba su comentario :</label><textarea name="opinion" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="botones">
+                <button class="enviar" type="submit" value="enviar">Enviar</button>
+                <button class="borrar" type="reset" value="eliminar">Borrar</button>
+                <input class="adjutar" type="file" name="archivos" accept=".pdf, jpg, .doc" multiple>
+            </div>
+            </fieldset>
+        </fieldset>  
+    </fieldset>
+    </form>
+</div>
+</body>
+</html>
