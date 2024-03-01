@@ -161,7 +161,7 @@ fieldset{
     border-radius: 10px;
     background-image:url(../img/fondoformulario.jpg) ;
     background-repeat: no-repeat;
-    background-size: 70% 70%;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     width: min-content;
